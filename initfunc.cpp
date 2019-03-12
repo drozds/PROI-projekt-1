@@ -18,7 +18,7 @@ void QFun::result() {
     if ( disc > 0 ) {
         x1 = ( -b + sqrt(disc) ) / ( 2 * a );
         x2 = ( -b - sqrt(disc) ) / ( 2 * a );
-        std::cout << std::setprecision(2) << std::fixed << "x1 = " << x1 << std::endl;
+        std::cout << std::setprecision(4) << std::fixed << "x1 = " << x1 << std::endl;
         std::cout << std::fixed << "x2 = " << x2 << std::endl;
     } 
     else if ( disc = 0 ) {
